@@ -1,7 +1,7 @@
 {{ define "main" }}
     <h1 class="page-title">{{ .Title }}</h1>
     <ul class="articles">
-        {{ range (.Paginate .Site.RegularPages.ByDate.Reverse 8).Pages }}
+        {{ range (.Paginator 8).Pages }}
         <li>
             <article>
                 <header>
