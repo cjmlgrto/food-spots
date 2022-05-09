@@ -1,6 +1,7 @@
 .DS_Store
 
 source/resources/_gen/*
+source/.hugo_build.lock
 
 dist/
 dist.zip
