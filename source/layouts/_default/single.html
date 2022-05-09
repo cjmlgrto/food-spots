@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main>
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.Rating }}
+        <div>{{ strings.Repeat 3 "★" }}</div>
+    {{ end }}
+    {{ if .Params.Locations }}
+        <ul>
+        {{ range (.GetTerms "locations") }}
+            <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+        {{ end }}
+        </ul>
+    {{ end }}
+    {{ if .Params.Tags }}
+    <ul>
+        {{ range (.GetTerms "tags") }}
+            <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+        {{ end }}
+    </ul>
+    {{ end }}
+    {{ .Content }}
+</main>
+{{ end }}

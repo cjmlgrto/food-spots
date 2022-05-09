@@ -1,0 +1,13 @@
+title: Food Spots
+baseUrl: https://carlos-m.com/food-spots
+
+params:
+  author: Carlos Melegrito
+  description: In which Carlos reviews some food spots
+
+  social:
+    twitter: cjmlgrto
+
+taxonomies:
+  tag: tags
+  location: locations

@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    <ul>
+        {{ range (.Paginate .Site.RegularPages.ByDate.Reverse 4).Pages }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+    <div>
+        {{ if .Paginator.HasNext }}
+            <li><a href="{{ .Paginator.Next.URL }}">Older</a></li>
+        {{ end }}
+        {{ if .Paginator.HasPrev }}
+            <li><a href="{{ .Paginator.Prev.URL }}">Newer</a></li>
+        {{ end }}
+    </div>
+{{ end }}
