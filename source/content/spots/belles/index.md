@@ -2,7 +2,7 @@
 title: Belle's
 date: 2022-05-09T13:00:00+10:00
 locations: [Fitzroy, VIC]
-tags: [American, Bar, Good for Groups, Takeaway]
+tags: [American, Bar, Good for Groups, Takeaway, Book Ahead]
 rating: 5
 ---
 

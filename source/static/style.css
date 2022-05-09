@@ -25,6 +25,16 @@ p, blockquote, pre {
     --width-site: 30rem;
 }
 
+@media (prefers-color-scheme: dark) {
+   :root {
+        --color-background: #121212;
+        --color-foreground-primary: #ffffff;
+        --color-foreground-secondary: #aaa;
+        --color-foreground-tertiary: #666;
+        --color-divider: #333;
+   }
+}
+
 /* Typography */
 /* ----------------------------------------- */
 
@@ -77,6 +87,7 @@ nav {
     max-width: var(--width-site);
     margin: 0 auto 4rem;
     font-size: 1.5rem;
+    letter-spacing: -0.03rem;
     text-align: center;
 }
 
@@ -100,6 +111,10 @@ nav {
 
 /* Components */
 /* ----------------------------------------- */
+
+nav a svg path {
+    fill: var(--color-foreground-primary)
+}
 
 nav a:hover {
     border: none;
@@ -152,12 +167,9 @@ time {
     color: var(--color-foreground-tertiary);
 }
 
-.tags {
-    display: flex;
-}
-
 .tags li {
     font-size: 0.75rem;
+    display: inline-block;
 }
 
 .tags li:not(:last-child) {
