@@ -117,6 +117,8 @@ nav {
 .pagination {
     list-style: none;
     max-width: var(--width-site);
+    padding-left: 2rem;
+    padding-right: 2rem;
     margin: 0 auto 4rem;
     display: flex;
     justify-content: space-between;

@@ -1,9 +1,9 @@
 ---
-title: Ilza Japanese Cafe
+title: Ilza
 date: 2022-05-09T13:00:00+10:00
 locations: [Docklands, VIC]
-tags: [Japanese, Coffee, Dessert]
+tags: [Japanese, Lunch, Dessert, Coffee, Vegetarian]
 rating: 3
 ---
 
-Decent, but slightly pricey, lunch options. Bit of a trek though. Go here for their orange latte or panna cotta.
+Terrible location, and possibly a bit too pricey for what it is. But, a decent take on Japanese food. And when you do go, make sure you get either the Orange Latte, or their Panna Cotta. (or BOTH).
