@@ -75,7 +75,8 @@ h1, h2, h3 {
 /* ----------------------------------------- */
 
 body {
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 nav {
@@ -85,6 +86,8 @@ nav {
 
 .page-title {
     max-width: var(--width-site);
+    padding-left: 2rem;
+    padding-right: 2rem;
     margin: 0 auto 4rem;
     font-size: 1.5rem;
     letter-spacing: -0.03rem;
@@ -93,12 +96,22 @@ nav {
 
 .articles {
     list-style: none;
-    max-width: var(--width-site);
     margin: 0 auto;
 }
 
 .articles > li {
     margin-bottom: 8rem;
+}
+
+.articles header,
+.articles .meta,
+.articles .content,
+.articles footer {
+    max-width: var(--width-site);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pagination {
@@ -144,11 +157,19 @@ article ul, article li {
 
 .meta {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-between;
-    padding-bottom: 1rem;
     margin-bottom: 1rem;
-    border-bottom: 1px solid var(--color-divider);
+}
+
+.meta:after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin-top: 1rem;
+    background: var(--color-divider);
 }
 
 .locations {
@@ -165,6 +186,45 @@ article ul, article li {
 time {
     font-size: 0.75rem;
     color: var(--color-foreground-tertiary);
+}
+
+.row {
+    overflow: scroll;
+    margin-bottom: 0.5rem;
+}
+
+.row::-webkit-scrollbar {
+    display: none;
+}
+
+.images {
+    padding-left: calc(50vw - 15rem + 2rem);
+    white-space: nowrap;
+}
+
+.images img {
+    display: inline-block;
+    max-width: 26rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.images img:last-child {
+    margin-right: calc(50vw - 15rem + 2rem);
+}
+
+@media (max-width: 30rem) {
+    .images {
+        padding-left: 2rem;
+    }
+
+    .images img {
+        max-width: calc(75vw - 2rem);
+    }
+
+    .images img:last-child {
+        margin-right: 2rem;
+    }
 }
 
 .tags li {
