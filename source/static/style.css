@@ -219,7 +219,7 @@ time {
     }
 
     .images img {
-        max-width: calc(75vw - 2rem);
+        max-width: calc(100vw - 4rem);
     }
 
     .images img:last-child {
