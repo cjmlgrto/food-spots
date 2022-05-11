@@ -47,11 +47,11 @@
         {{ end }}
     </ul>
     <ul class="pagination">
-        {{ if .Paginator.HasPrev }}
-            <li><a href="{{ .Paginator.Prev.URL }}">Newer</a></li>
-        {{ end }}
         {{ if .Paginator.HasNext }}
             <li><a href="{{ .Paginator.Next.URL }}">Older</a></li>
+        {{ end }}
+        {{ if .Paginator.HasPrev }}
+        <li><a href="{{ .Paginator.Prev.URL }}">Newer</a></li>
         {{ end }}
     </ul>
 {{ end }}
