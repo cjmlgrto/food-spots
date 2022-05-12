@@ -3,7 +3,7 @@ baseUrl: https://carlos-food-spots.netlify.app
 
 params:
   author: Carlos Melegrito
-  description: In which Carlos reviews some food spots
+  description: A curated list of food spots, as reviewed by one Carlos Melegrito
 
   social:
     twitter: cjmlgrto

@@ -10,7 +10,7 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:type" content="{{ if eq .IsHome false }}article{{ else }}website{{ end }}">
 <meta property="og:title" content="{{ .Site.Title }}">
-<meta property="og:image" content="">
+<meta property="og:image" content="{{ .Site.BaseURL }}/preview.jpg">
 <meta property="og:locale" content="en_AU">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:description" content="{{ .Site.Params.Description }}">
@@ -19,7 +19,7 @@
 <meta name="twittersite" content="@{{ .Site.Params.Social.Twitter }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ .Site.Title }}">
-<meta name="twitter:image" content="">
+<meta name="twitter:image" content="{{ .Site.BaseURL }}/preview.jpg">
 <meta name="twitter:description" content="{{ .Site.Params.Description }}">
 
 <link rel="stylesheet" href="/style.css">
