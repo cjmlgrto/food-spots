@@ -1,4 +1,4 @@
 ---
 title: Recently Reviewed
-layout: "list"
+layout: "home"
 ---

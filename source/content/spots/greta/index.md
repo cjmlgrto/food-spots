@@ -1,7 +1,7 @@
 ---
 title: Greta
 date: 2022-05-10T13:00:00+10:00
-locations: [Melnourne, VIC]
+locations: [Melbourne, VIC]
 tags: [Italian, Coffee, Bar]
 rating: 4
 ---

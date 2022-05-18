@@ -1,0 +1,57 @@
+{{ define "main" }}
+    <h1 class="page-title">{{ .Title }}</h1>
+    <ul class="articles">
+        {{ range (.Paginator 8).Pages }}
+        <li>
+            <article>
+                <header>
+                    <h1>{{ .Title }}</h1>
+                    {{ if .Params.Rating }}
+                    <div class="rating">{{ strings.Repeat .Params.Rating "★" }}</div>
+                    {{ end }}
+                </header>
+                <div class="meta">
+                    {{ if .Params.Locations }}
+                        <ul class="locations">
+                            {{ range (.GetTerms "locations") }}
+                            <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+                            {{ end }}
+                        </ul>
+                        <time datetime='{{ .Date.Format "2006-01-02T15:04:05-0700" }}"'>{{ .Date.Format "2 Jan 2006" }}</time>
+                    {{ end }}
+                </div>
+                {{ if .Params.Images }}
+                <div class="row">
+                    {{ $link := .Permalink }}
+                    <div class="images">
+                        {{ range .Params.Images }}
+                        <img src="{{ $link }}/{{ . }}.jpg" />
+                        {{ end }}
+                    </div>
+                </div>
+                {{ end }}
+                <div class="content">
+                    {{ .Content }}
+                </div>
+                <footer>
+                    {{ if .Params.Tags }}
+                    <ul class="tags">
+                        {{ range (.GetTerms "tags") }}
+                        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </footer>
+            </article>
+        </li>
+        {{ end }}
+    </ul>
+    <ul class="pagination">
+        {{ if .Paginator.HasNext }}
+            <li><a href="{{ .Paginator.Next.URL }}">Older</a></li>
+        {{ end }}
+        {{ if .Paginator.HasPrev }}
+        <li><a href="{{ .Paginator.Prev.URL }}">Newer</a></li>
+        {{ end }}
+    </ul>
+{{ end }}
