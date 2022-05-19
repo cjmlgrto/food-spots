@@ -7,4 +7,4 @@ rating: 2
 images: [a, b, c]
 ---
 
-Giving this a 2-star rating because the service was just not great when we went— they got the coffee order wrong, twice! Also, the food was good while we were there (even saw Andy Allen!) but not-so-good later when we got some slight food poisoning! Eeep.
+Sure, the head chef's a MasterChef judge, but when I went, they got not one, but two (!!) coffee orders wrong, and then later, I got food poisoning. Big yikes. The food at the time (a "smashed pumpkin" number with eggs benny) was alright though.

@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <h1 class="page-title">{{ .Title }}</h1>
+    <ul class="articles list">
+        {{ range sort .Data.Pages "Title" "asc" }}
+        <li>
+            <a href="{{ .Page.Permalink }}">
+                <article class="mini">
+                    <header>
+                        <h1>{{ .Page.Title }}</h1>
+                    </header>
+                </article>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+{{ end }}
