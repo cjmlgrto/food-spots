@@ -1,4 +1,4 @@
 ---
-title: Recently Reviewed
+title: Food Spots
 layout: "home"
 ---
