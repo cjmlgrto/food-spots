@@ -9,7 +9,7 @@
 
 ul, ol, li,
 h1, h2, h3,
-img, video,
+img, video, table,
 p, blockquote, pre {
     max-width: 100%;
     margin-bottom: 1em;
@@ -125,6 +125,13 @@ body {
     margin: 0 auto 4rem;
     display: flex;
     justify-content: space-between;
+}
+
+.about {
+    max-width: var(--width-site);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0 auto 4rem;
 }
 
 /* Components */
@@ -286,4 +293,24 @@ time {
 
 .tags li:not(:last-child) {
     margin-right: 0.5rem;
+}
+
+th {
+    font-weight: normal;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    border-bottom: 1px solid var(--color-divider);
+}
+
+td {
+    vertical-align: top;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    border-bottom: 1px solid var(--color-divider);
+}
+
+tr:last-child td {
+    border-bottom: none;
 }
