@@ -71,6 +71,11 @@ h1, h2, h3 {
     color: var(--color-foreground-primary);
 }
 
+.about h2 {
+    font-size: 1.25em;
+    margin-top: 4rem;
+}
+
 /* Page Layout */
 /* ----------------------------------------- */
 
@@ -132,6 +137,15 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
     margin: 0 auto 4rem;
+}
+
+.colophon {
+    max-width: var(--width-site);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0 auto 6rem;
+    font-size: 0.75rem;
+    text-align: center;
 }
 
 /* Components */
@@ -313,4 +327,13 @@ td {
 
 tr:last-child td {
     border-bottom: none;
+}
+
+.insta {
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.insta:hover {
+    border: none;
 }

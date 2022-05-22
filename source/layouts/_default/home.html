@@ -46,8 +46,5 @@
         </li>
         {{ end }}
     </ul>
-    <ul class="pagination">
-        <li>{{ if .Paginator.HasPrev }}<a href="{{ .Paginator.Prev.URL }}">Newer</a>{{ end }}</li>
-        <li>{{ if .Paginator.HasNext }}<a href="{{ .Paginator.Next.URL }}">Older</a>{{ end }}</li>
-    </ul>
+    {{ partial "pagination" . }}
 {{ end }}

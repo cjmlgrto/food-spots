@@ -9,6 +9,8 @@ I'm [Carlos](https://carlos-m.com), a designer and croissant enthusiast from Mel
 
 This site is a curated list of restaurants, cafés, bars, and bakeries that I'd personally recommend to my friends and family.
 
+## The Rating System
+
 Here's how the rating system works:
 
 | Rating | Description |
@@ -18,5 +20,7 @@ Here's how the rating system works:
 | ★★★ | Good, but only been once |
 | ★★ | OK if you need food that won’t let you down |
 | ★ | Alright, only if it’s just you that’s going |
+
+## Get in Touch
 
 Got a question? A place you'd recommend? Or even, a rating you disagree with? DM me on [Instagram](https://instagram.com/cjmlgrto) or [Twitter](https://twitter.com/cjmlgrto).
