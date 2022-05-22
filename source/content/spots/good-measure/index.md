@@ -7,4 +7,4 @@ rating: 4
 images: [a, b, c]
 ---
 
-Came for the Mont Blanc, stayed for the Marvin Gaye classic ‘Let's Get It On’ playing on vinyl. Peak hipster vibes. I'll be coming back for their night-time bar menu and cocktails.
+Came for the Mont Blanc, stayed for the 70s soul hits playing on vinyl. Peak hipster vibes. I'll be coming back for their night-time bar menu and cocktails.
