@@ -15,7 +15,9 @@
                         <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
                         {{ end }}
                     </ul>
-                    <time datetime='{{ .Date.Format "2006-01-02T15:04:05-0700" }}"'>{{ .Date.Format "2 Jan 2006" }}</time>
+                    {{ if gt (.Date.Year) 2}}
+                            <time datetime='{{ .Date.Format "2006-01-02T15:04:05-0700" }}"'>{{ .Date.Format "2 Jan 2006" }}</time>
+                    {{ end }}
                 {{ end }}
             </div>
             {{ if .Params.Images }}

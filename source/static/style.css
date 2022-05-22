@@ -104,7 +104,7 @@ body {
 
 .articles {
     list-style: none;
-    margin: 0 auto;
+    margin: 0 auto 4rem;
 }
 
 .articles > li {
