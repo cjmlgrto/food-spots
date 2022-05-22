@@ -56,7 +56,7 @@ html {
 
 a {
     text-decoration: none;
-    color: var(--color-foreground-tertiary);
+    color: var(--color-foreground-secondary);
     text-decoration: none;
 }
 
@@ -74,6 +74,10 @@ h1, h2, h3 {
 .about h2 {
     font-size: 1.25em;
     margin-top: 4rem;
+}
+
+.about a {
+    color: var(--color-foreground-primary);
 }
 
 /* Page Layout */
@@ -141,6 +145,7 @@ body {
 
 .colophon {
     max-width: var(--width-site);
+    color: var(--color-foreground-tertiary);
     padding-left: 2rem;
     padding-right: 2rem;
     margin: 0 auto 6rem;
@@ -307,6 +312,14 @@ time {
 
 .tags li:not(:last-child) {
     margin-right: 0.5rem;
+}
+
+.locations a, .tags a {
+    color: var(--color-foreground-tertiary);
+}
+
+.pagination del {
+    color: var(--color-foreground-tertiary);
 }
 
 th {
