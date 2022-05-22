@@ -1,6 +1,6 @@
 ---
 title: Cote Terra
-date: 2022-05-09T13:00:00+10:00
+
 locations: [Oakleigh, VIC]
 tags: [Breakfast, Lunch, Coffee, Vegetarian, Vegan]
 rating: 3

@@ -1,6 +1,6 @@
 ---
 title: Garden State Hotel
-date: 2022-05-09T13:00:00+10:00
+
 locations: [Melbourne, VIC]
 tags: [Lunch, Dinner, Bar, Good for Groups]
 rating: 2

@@ -1,6 +1,6 @@
 ---
 title: Little Rogue
-date: 2022-05-09T13:00:00+10:00
+
 locations: [Melbourne, VIC]
 tags: [Pastry, Coffee]
 rating: 3

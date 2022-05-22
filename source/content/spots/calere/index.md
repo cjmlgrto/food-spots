@@ -1,6 +1,6 @@
 ---
 title: Calēre
-date: 2022-05-11T13:00:00+10:00
+date: 2022-03-14T13:00:00+10:00
 locations: [Fitzroy, VIC]
 tags: [Sandiwches, Pastry, Dessert, Coffee, Vegetarian]
 rating: 4

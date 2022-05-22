@@ -1,6 +1,6 @@
 ---
 title: Beatrix
-date: 2022-05-09T13:00:00+10:00
+date: 2022-03-18T13:00:00+10:00
 locations: [North Melbourne, VIC]
 tags: [Pastry, Dessert, Coffee, Vegetarian]
 rating: 4

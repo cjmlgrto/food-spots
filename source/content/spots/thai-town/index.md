@@ -1,6 +1,6 @@
 ---
 title: Thai Town
-date: 2022-05-09T13:00:00+10:00
+
 locations: [Melbourne, VIC]
 tags: [Thai, Good for Groups]
 rating: 3

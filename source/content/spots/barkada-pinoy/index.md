@@ -1,6 +1,6 @@
 ---
 title: Barkada Pinoy
-date: 2022-05-09T13:00:00+10:00
+
 locations: [Melbourne, VIC]
 tags: [Filipino, Takeaway]
 rating: 3

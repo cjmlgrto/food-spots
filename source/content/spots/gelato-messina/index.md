@@ -1,6 +1,6 @@
 ---
 title: Gelato Messina
-date: 2022-05-09T13:00:00+10:00
+
 locations: [Brunswick, VIC]
 tags: [Gelato, Vegetarian, Vegan]
 rating: 3

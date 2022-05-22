@@ -1,6 +1,6 @@
 ---
 title: Three Blue Ducks
-date: 2022-05-13T13:00:00+10:00
+date: 2022-05-08T13:00:00+10:00
 locations: [Tullamarine, VIC]
 tags: [Breakfast, European, Coffee, Vegetarian, Vegan]
 rating: 2

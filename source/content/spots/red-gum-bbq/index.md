@@ -1,6 +1,6 @@
 ---
 title: Red Gum BBQ
-date: 2022-05-09T13:00:00+10:00
+
 locations: [Red Hill, VIC]
 tags: [American, Good for Groups, Vegetarian, Book Ahead]
 rating: 4

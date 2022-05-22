@@ -1,6 +1,6 @@
 ---
 title: Meletos
-date: 2022-05-09T13:00:00+10:00
+
 locations: [Yarra Valley, VIC]
 tags: [European, Fine-Dining, Vegetarian, Book Ahead]
 rating: 4

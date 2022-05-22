@@ -1,6 +1,6 @@
 ---
 title: Tokyo Table
-date: 2022-05-09T13:00:00+10:00
+date: 2022-03-05T13:00:00+10:00
 locations: [Hawthorn, VIC]
 tags: [Japanese, Vegetarian]
 rating: 3

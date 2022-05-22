@@ -1,6 +1,6 @@
 ---
 title: Auction Rooms
-date: 2022-05-09T13:00:00+10:00
+
 locations: [North Melbourne, VIC]
 tags: [Breakfast, Lunch, Coffee, Vegetarian, Vegan]
 rating: 3

@@ -1,6 +1,6 @@
 ---
 title: Mount Macedon Trading Post
-date: 2022-05-09T13:00:00+10:00
+
 locations: [Macedon, VIC]
 tags: [Breakfast, Pastry, Coffee]
 rating: 2

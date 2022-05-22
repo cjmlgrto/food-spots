@@ -1,6 +1,6 @@
 ---
 title: The Beach House
-date: 2022-05-09T13:00:00+10:00
+
 locations: [Geelong, VIC]
 tags: [Breakfast, Coffee, Vegetarian, Vegan]
 rating: 3
