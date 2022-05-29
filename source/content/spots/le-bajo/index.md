@@ -7,4 +7,4 @@ rating: 3
 images: [a, b, c]
 ---
 
-Cute, cosy and vibey little Japanese café. The shokupan delivered. Definitely going back to try the rest of the menu— specifically, for that melon pan!
+Cute, cosy and vibey little Japanese café. Some of the sandwiches are a little too rich though for my liking, but the shokupan delivered.
