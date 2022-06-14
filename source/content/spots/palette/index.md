@@ -1,10 +1,10 @@
 ---
 title: Palette
-date: 2022-03-23T13:00:00+10:00
+date: 2022-06-11T13:00:00+10:00
 locations: [North Melbourne, VIC]
-tags: [Breakfast, Lunch, Pastry, Dessert, Coffee, Vegetarian]
-rating: 4
+tags: [Breakfast, Pastry, Sandwiches, Coffee, Vegetarian]
+rating: 3
 images: [a, b, c]
 ---
 
-By day, Korean food in the form of brunch sandwiches. By night, a very vibey dessert café. I think I prefer their night menu.
+A cosy little café that serves Korean-inspired sandwiches for brunch. Some of the sandwiches a little too rich and heavy though. I think I prefer their night menu.
