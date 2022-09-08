@@ -1,8 +1,8 @@
 ---
-title: Kolbi
+title: Kalbi
 date: 2022-08-18T13:00:00+10:00
 locations: [Hobart, TAS]
-tags: [Korean]
+tags: [Korean, BBQ, Bar]
 rating: 4
 images: [a, b, c]
 ---
