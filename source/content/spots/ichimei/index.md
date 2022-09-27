@@ -2,7 +2,7 @@
 title: Ichimei
 date: 2022-08-20T13:00:00+10:00
 locations: [Battery Point, TAS]
-tags: [Breakfast, Pastry, Coffee, Vegetarian, Vegan]
+tags: [Japanese, Izakaya, Book Ahead, Bar, Vegetarian]
 rating: 4
 images: [a, b, c]
 ---
