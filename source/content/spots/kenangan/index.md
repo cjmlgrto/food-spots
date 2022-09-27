@@ -1,6 +1,6 @@
 ---
 title: Kenangan
-date: 2022-09-17T13:00:00+10:00
+date: 2022-09-06T13:00:00+10:00
 locations: [Melbourne, VIC]
 tags: [Indonesian]
 rating: 4
