@@ -2,7 +2,7 @@
 title: Calēre
 date: 2022-03-14T13:00:00+10:00
 locations: [Fitzroy, VIC]
-tags: [Sandiwches, Pastry, Dessert, Coffee, Vegetarian]
+tags: [Sandwiches, Pastry, Dessert, Coffee, Vegetarian]
 rating: 4
 images: [c, b, a]
 ---
