@@ -5,3 +5,5 @@ source/.hugo_build.lock
 
 dist/
 dist.zip
+
+.nova/
